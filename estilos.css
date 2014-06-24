@@ -6,10 +6,17 @@ body header #imagen #png{height:60px;width:100%}
 body header nav{background:#fff;border-bottom:4px solid transparent;border-left:10px solid #000;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #000;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:.7em;text-align:center;vertical-align:top;width:90%}
 body header nav ul{list-style:none;margin:0;padding:0 .8em}
 body header nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
-body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weight:normal;display:block;text-decoration:none;padding:0 0}
+body header nav ul li a{color:#000;font-weight:normal;display:block;text-decoration:none;padding:0 0}
 body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
+body header #nav{background:#fff;border-top:1px solid #000;color:#fff;display:inline-block;font-size:.7em;text-align:center;vertical-align:top;width:90%;}
+body header #nav #boton{display:inline-block;margin:0 1.2em 0 0;vertical-align:top;}
+body header #nav #boton .enlace{color:#808080;font-weight:normal;display:block;text-decoration:none;padding:0 0}
+body #contenedor{background:#e0dbdb;color:#000;display:inline-block;position:relative;width:100%;}
+body #contenedor #texto{background:#f00;display:inline-block;text-align:left;width:100%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px;}
-body header{border:1px solid #f00;width:95%;}
-body header nav{background:#ff0;font-size:1.5em;width:90%}
-#contenedor{width:95%}
+body header{width:95%;}
+body header nav{font-size:1.5em;width:90%}
+body header #nav{width:70%}
+body #contenedor{border:1px solid #f00;width:95%;}
+body #contenedor #texto{backgound:#ddd;display:inline-blok;font-size:.8em;margin:.3em;padding:.3em .3em;text-align:left;width:70%}
 }
