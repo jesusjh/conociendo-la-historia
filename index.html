@@ -9,7 +9,11 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-         <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="estilos.css">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -21,20 +25,20 @@
             </figure>
             <nav>
               <ul>
-                  <li><a href="">Inicio</a></li>
-                  <li><a href="">Sintesis Historia</a></li>
-                  <li><a href="">Cronologia Multimedia</a></li>
-                  <li><a href="">Biografias</a></li>
-                  <li><a href="">Documentos</a></li>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Sintesis Historia</a></li>
+                  <li><a href="#">Cronologia Multimedia</a></li>
+                  <li><a href="#">Biografias</a></li>
+                  <li><a href="#">Documentos</a></li>
               </ul>
-          </nav>
+            </nav>
           <nav id="nav">
               <ul id="boton">
-                  <li><a href="" class="enlace">Done Estudiar</a></li>
-                  <li><a href="" class="enlace">Gaceta Historica</a></li>
-                  <li><a href="" class="enlace">Cursos y Charlas</a></li>
-                  <li><a href="" class="enlace">Libros</a></li>
-                  <li><a href="" class="enlace">Contacto</a></li>
+                  <li><a href="#" class="enlace">Done Estudiar</a></li>
+                  <li><a href="#" class="enlace">Gaceta Historica</a></li>
+                  <li><a href="#" class="enlace">Cursos y Charlas</a></li>
+                  <li><a href="#" class="enlace">Libros</a></li>
+                  <li><a href="#" class="enlace">Contacto</a></li>
               </ul>
           </nav>
         </header>
@@ -42,11 +46,86 @@
             <articule id="texto">
                 <p>Esta web tiene como objeto facilitar la búsqueda de datos a todo aquel que este interesado en la historia, desde el más pequeño al investigador. Para que esta web sea una buena herramienta es importante la colaboración de todos los que visitáis este sitio, ya sea corrigiendo mis errores o aportando nuevos datos.</p>
             </articule>
+            <articule id="item">
+                <h2>Ultimas noticias</h2>
+                <articule class="noticia">
+                  <h3>Mega-Submarino Japonés de la WWII descubierto cerca de Hawai</h3>
+                    <p>Esta semana , se anunció que el equipo de la Undersea Research Laboratory Hawaii ( LANCE ) descubrió recientemente un submarino gigante que se había perdido desde 1946 de la Armada Imperial Japonesa , que fue hundido intencionalmente por los Estados Unidos después captura de la embarcación</p>
+                </articule>
+            </articule>
+            <articule id="item-texto">
+              <h2>Ultimos Reportajes</h2>
+                <articule class="reportajes">
+                    <img src="img/Noticias/r631.gif" class="fotos">
+                    <articule class="item-noticia">
+                        <h3>LA BATALLA DE WATERLOO</h3>
+                        <p>La batalla que marcó el fin de Napoleón y de su imperio francés</p>
+                        <p>Autora <b>P.Argenter</b></p>
+                        <p>Fecha <b>11 de Enero del 2010</b></p>
+                    </articule>
+                </articule>
+            </articule>
+             <articule id="item">
+                <h2>Ultimas noticias</h2>
+                <articule class="noticia">
+                  <h3>Mega-Submarino Japonés de la WWII descubierto cerca de Hawai</h3>
+                    <p>Esta semana , se anunció que el equipo de la Undersea Research Laboratory Hawaii ( LANCE ) descubrió recientemente un submarino gigante que se había perdido desde 1946 de la Armada Imperial Japonesa , que fue hundido intencionalmente por los Estados Unidos después captura de la embarcación</p>
+                </articule>
+            </articule>
+            <articule id="item-texto">
+              <h2>Ultimos Reportajes</h2>
+                <articule class="reportajes">
+                    <img src="img/Noticias/r631.gif" class="fotos" lat="Imagen de la Noticia">
+                    <articule class="item-noticia">
+                        <h3>LA BATALLA DE WATERLOO</h3>
+                        <p>La batalla que marcó el fin de Napoleón y de su imperio francés</p>
+                        <p>Autora <b>P.Argenter</b></p>
+                        <p>Fecha <b>11 de Enero del 2010</b></p>
+                    </articule>
+                </articule>
+            </articule>
+            <footer id="pie">
+                <articule id="enlaces">
+                    <a href="#">Contactar</a>
+                    <a href="#">Registro</a>
+                    <a href="#">Twitter Historia</a>
+                    <a href="#">Facebook Historia</a>
+                    <a href="#">Google+ Historia</a>
+                    <a href="#">Añdir web</a>
+                    <a href="#">Aviso Legal</a>
+                </articule>
+                <figure id="imagenes">
+                    <a href="https://plus.google.com/u/1/" target="-black">
+                      <img src="img/Logo/descarga-(1).jpg" class="img" alt="Imagen de Google+"></a>
+                    <a href="http://conociendo-lahistoria.blogspot.com.es/" target="-black">
+                      <img src="img/Logo/descarga.jpg" class="img" alt="imagen de Blogguer"></a>
+                </figure>
+            </footer>
         </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+            function addLink() {
+            var body_element = document.getElementsByTagName('body')[0];
+            var selection;
+            selection = window.getSelection();
+            var pagelink = "<br /><br />Más información: <a href='"+document.location.href+"'>"+document.location.href+"[/url]<br />Copyright © <b>Psicomatico.net</b>";
+            var copytext = selection + pagelink;
+            var newdiv = document.createElement('div');
+            newdiv.style.position='absolute';
+            newdiv.style.left='-99999px';
+            body_element.appendChild(newdiv);
+            newdiv.innerHTML = copytext;
+            selection.selectAllChildren(newdiv);
+            window.setTimeout(function() {
+            body_element.removeChild(newdiv);
+            },0);
+            }
+            document.oncopy = addLink;
+        </script>
     </body>
 </html>

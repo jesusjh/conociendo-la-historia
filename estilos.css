@@ -12,11 +12,34 @@ body header #nav{background:#fff;border-top:1px solid #000;color:#fff;display:in
 body header #nav #boton{display:inline-block;margin:0 1.2em 0 0;vertical-align:top;}
 body header #nav #boton .enlace{color:#808080;font-weight:normal;display:block;text-decoration:none;padding:0 0}
 body #contenedor{background:#e0dbdb;color:#000;display:inline-block;position:relative;width:100%;}
-body #contenedor #texto{background:#f00;display:inline-block;text-align:left;width:100%}
+body #contenedor #texto{display:inline-block;text-align:left;margin-top:.6em;width:100%}
+body #contenedor #item{display:inline-block;margin-top:1em;position:relative;text-align:left;width:100%;}
+body #contenedor #item h2{font-size:1.5em;font-family:"Lobster",Arial;text-align:left}
+body #contenedor #item h3{color:#1198fd;font-family:"Lobster",Arial;font-size:1.2em;text-align:left}
+body #contenedor #item .noticia{font-size:.8em}
+body #contenedor #item-texto{display:inline-block;margin-top:1em;width:100%;}
+body #contenedor #item-texto h2{font-family:"Lobster",Arial;text-align:left}
+body #contenedor #item-texto .reportajes{display:inline-block;padding:.3em;vertical-align:top;width:90%;}
+body #contenedor #item-texto .reportajes .fotos{float:left;width:40%}
+body #contenedor #item-texto .reportajes .item-noticia{float:right;text-align:left;width:50%;}
+body #contenedor #item-texto .reportajes .item-noticia h3{color:#1198fd;font-family:"Lobster",Arial;font-size:1em}
+body #contenedor #pie{background:#000;display:inline-block;height:auto;margin-top:1em;vertical-align:top;width:100%;}
+body #contenedor #pie #enlaces{display:inline-block;float:left;font-size:1em;position:relative;top:0;width:100%;}
+body #contenedor #pie #enlaces a{color:#fff;font-size:1em;text-decoration:none}
+body #contenedor #pie #enlaces a:hover{color:#00f;font-weight:bold;transition:1s}
+body #contenedor #pie #imagenes{background:#fff;display:inline-block;margin-top:1em;vertical-align:top;width:100%;}
+body #contenedor #pie #imagenes .img{float:right;margin:.2em;padding:.3em;width:5%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px;}
 body header{width:95%;}
 body header nav{font-size:1.5em;width:90%}
 body header #nav{width:70%}
-body #contenedor{border:1px solid #f00;width:95%;}
-body #contenedor #texto{backgound:#ddd;display:inline-blok;font-size:.8em;margin:.3em;padding:.3em .3em;text-align:left;width:70%}
+body #contenedor{display:inline-blok;width:95%;}
+body #contenedor #texto{backgound:#ddd;display:inline-blok;font-size:1.2em;margin:.3em;padding:.3em .3em;text-align:left;width:70%}
+body #contenedor #item{display:inline-blok;font-size:1.3em;float:right;width:40%}
+body #contenedor #item-texto{float:left;display:inline-blok;font-size:1.3em;width:50%}
+body #contenedor #pie{width:100%;}
+body #contenedor #pie #enlaces{margin-top:1em;position:relative;float:left;width:50%;}
+body #contenedor #pie #enlaces a{border-right:1px solid #fff;font-size:.7em;padding:.2em}
+body #contenedor #pie #imagenes{float:right;display:inline-blok;margin:.3em;width:30%;}
+body #contenedor #pie #imagenes .img{width:10%}
 }
