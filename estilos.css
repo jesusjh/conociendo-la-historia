@@ -2,7 +2,7 @@ body{background:#808080;color:#fff;font-size:16px;postion:absolute;margin:0;text
 body header{background:#000;display:inline-block;hight:auto;width:100%;}
 body header h1{display:inline-block;font-size:1.4em;postion:relative;width:100%}
 body header #imagen{display:inline-block;height:auto;margein-top:-1em;position:relative;width:70%;z-index:1;}
-body header #imagen #png{display:inline-block;height:142px;width:100%}
+body header #imagen #png{display:inline-block;height:270px;width:100%}
 body header nav{background:#e0dbdb;border-bottom:4px solid transparent;border-left:10px solid #000;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #000;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:.7em;height:30px;text-align:center;vertical-align:top;width:90%}
 body header nav ul{list-style:none;margin:0;padding:0 .8em}
 body header nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}

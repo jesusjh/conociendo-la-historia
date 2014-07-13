@@ -17,18 +17,18 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body>
+    <body oncontextmenu='return false' onkeydown='return false'>
         <header>
             <figure id="imagen">
                 <img src="img/Logo/logo.png" id="png">
-                <h1>Conociendo la Historia de Andalucia</h1>
+                <h1>Conociendo la Historia de España</h1>
             </figure>
             <nav>
               <ul>
                   <li><a href="index.html">Inicio</a></li>
-                  <li><a href="#">Provincias</a></li>
+                  <li><a href="#">Andalucia</a></li>
                   <li><a href="#">Literatura</a></li>
-                  <li><a href="#">Cultura</a></li>
+                  <li><a href="#">España</a></li>
                   <li><a href="#">Bibliografia</a></li>
               </ul>
             </nav>
@@ -106,6 +106,10 @@
 
         <script src="js/main.js"></script>
 
+        <script language="Javascript">
+            document.oncontextmenu = function(){return false}
+        </script>
+
         <script type="text/javascript">
             function addLink() {
             var body_element = document.getElementsByTagName('body')[0];
@@ -125,5 +129,26 @@
             }
             document.oncopy = addLink;
         </script>
+
+        <script language="Javascript">
+           document.oncontextmenu = function() {
+              return false
+           }
+           function right(e) {
+              var msg = "Prohibido usar Click Derecho !!! ";
+              if (navigator.appName == 'Netscape' && e.which == 3) {
+                 alert(msg); //- Si no quieres asustar a tu usuario entonces quita esta linea...
+                 return false;
+              }
+              else if (navigator.appName == 'Microsoft Internet Explorer' && event.button==2) {
+                 alert(msg); //- Si no quieres asustar al usuario que utiliza IE,  entonces quita esta linea...
+                                //- Aunque realmente se lo merezca...
+              return false;
+              }
+           return true;
+            }
+            document.onmousedown = right;
+        </script>
+
     </body>
 </html>
