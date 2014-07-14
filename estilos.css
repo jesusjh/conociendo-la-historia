@@ -22,7 +22,7 @@ body #contenedor #pie{background:#000;display:inline-block;height:auto;margin-to
 body #contenedor #pie #enlaces{display:inline-block;float:left;font-size:1em;position:relative;top:0;width:100%;}
 body #contenedor #pie #enlaces a{color:#fff;font-size:1em;text-decoration:none}
 body #contenedor #pie #enlaces a:hover{color:#00f;font-weight:bold;transition:1s}
-body #contenedor #pie #imagenes{background:#fff;display:inline-block;margin-top:1em;vertical-align:top;width:100%;}
+body #contenedor #pie #imagenes{display:inline-block;margin-top:1em;vertical-align:top;width:100%;}
 body #contenedor #pie #imagenes .img{float:right;margin:.2em;padding:.3em;width:5%}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px;}
 body header{width:95%;}
